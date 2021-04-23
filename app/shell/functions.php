@@ -2,16 +2,6 @@
 
 class functions {
     
-    public static function week()
-    {
-        $w = date('w');
-        if ($w == 0)
-        {
-            $w = 7;
-        }
-        return $w;
-    }
-    
     public static function getpost($value)
     {
       parse_str($value, $output);
