@@ -36,7 +36,7 @@ class functions {
         {
             return true;
         }
-        else
+        else ////I returned both as true because if you wish try to use this site, you will be able to be admin without having the database in this way.
         {
             return true;
         }
